@@ -38,11 +38,11 @@ function spinWheel() {
         result.innerText = selectedOption;
         result.classList.remove('hidden');
 
-        // Redirigir después de 15 segundos
+        // Redirigir después de 8 segundos
         setTimeout(() => {
             clearConfetti();
             window.location.href = 'https://instagram.com/sebasm97';
-        }, 15000);
+        }, 8000);
     }, 5000); // La ruleta gira durante 5 segundos
 
     // Rehabilitar el botón después de 15 segundos
